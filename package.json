@@ -1,0 +1,51 @@
+{
+  "name": "lol-gain",
+  "version": "1.0.0",
+  "description": "League of Legends website aiming to help bronze and silver players reach gold by the end of the season.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fgalaviz/lol-gain.git"
+  },
+  "keywords": [
+    "LoL",
+    "Gain",
+    "League",
+    "of",
+    "Legends",
+    "Gold",
+    "Rank",
+    "Tips",
+    "Resources"
+  ],
+  "author": "Shadow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fgalaviz/lol-gain/issues"
+  },
+  "homepage": "https://github.com/fgalaviz/lol-gain#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-middleware": "^1.12.2",
+    "webpack-merge": "^4.1.1"
+  }
+}
